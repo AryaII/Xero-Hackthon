@@ -1,0 +1,368 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 90 accounts:"
+    },
+    {
+      "type": "text",
+      "text": "Account: Business Bank Account\nCode: 090\nID: bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4\nType: BANK\nStatus: ACTIVE\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Business Savings Account\nCode: 091\nID: a8d6fb1a-8c5d-4683-90ce-bf9d28fc62ba\nType: BANK\nStatus: ACTIVE\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Sales\nCode: 200\nID: c563b607-fb0e-4d06-9ddb-76fdeef20ae3\nType: REVENUE\nStatus: ACTIVE\nDescription: Income from any normal business activity\nTax Type: OUTPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Other Revenue\nCode: 260\nID: a969500a-377c-4cea-8f2b-a4e385607fd0\nType: REVENUE\nStatus: ACTIVE\nDescription: Any other income that does not relate to  normal business activity and is not recurring\nTax Type: OUTPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Interest Income\nCode: 270\nID: 02c0e212-9afb-4983-9c67-120656ff8d03\nType: REVENUE\nStatus: ACTIVE\nDescription: Gross interest income\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Purchases\nCode: 300\nID: 127f3b99-8dc2-4b7e-854c-91ef9bd2757b\nType: DIRECTCOSTS\nStatus: ACTIVE\nDescription: Goods purchased with the intention of selling these to customers\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Cost of Goods Sold\nCode: 310\nID: eacdbc15-2da2-4ef3-8d5c-3d2a7473c074\nType: DIRECTCOSTS\nStatus: ACTIVE\nDescription: Cost of goods sold by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Direct Wages\nCode: 320\nID: 3f05e98d-ab69-4484-9d4f-954a13647bc7\nType: DIRECTCOSTS\nStatus: ACTIVE\nDescription: Payment of wages/salary to an employee whose work can be directly linked to the product or service\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Direct Expenses\nCode: 325\nID: c20a1cce-df79-4665-bd39-2316df60f1eb\nType: DIRECTCOSTS\nStatus: ACTIVE\nDescription: Expenses incurred that relate directly to earning revenue\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Advertising & Marketing\nCode: 400\nID: 1ced4be7-ea6d-4f46-8279-4203e461de80\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred for advertising and marketing\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Audit & Accountancy fees\nCode: 401\nID: f752b3d5-18d7-4925-bf0e-b04e07cd8561\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred relating to accounting and audit fees\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Bank Fees\nCode: 404\nID: 2c410b86-de57-49d1-b540-4e8ce824979c\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Fees charged by your bank for transactions regarding your bank account(s)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Cleaning\nCode: 408\nID: da1cf440-c2c8-420e-a727-17b86b18af72\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred for cleaning business property\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Consulting\nCode: 412\nID: 46f9461e-788b-4906-8b74-d1ea17f6dc10\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments made to consultants\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Depreciation Expense\nCode: 416\nID: 7ea687db-e6db-4e03-89fe-670b22333137\nType: OVERHEADS\nStatus: ACTIVE\nDescription: The amount of the asset's cost (based on the useful life) that was consumed during the period\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Charitable and Political Donations\nCode: 418\nID: e93418c7-9035-4a5f-9e65-f1957943e34d\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments made to charities or political organisations or events\nTax Type: ZERORATEDINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: Entertainment-100% business\nCode: 420\nID: 932b5773-b0a7-4f9a-ae54-4e5cfe44979e\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on entertainment by the business that for income tax purposes are fully deductable\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Entertainment - 0%\nCode: 424\nID: afd0f4f0-aa56-410c-9120-811b71ce13e1\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on entertainment by the business that for income tax purposes are not fully deductable\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Postage, Freight & Courier\nCode: 425\nID: a49cc958-968e-4b54-96d6-8853c036009e\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred by the entity on postage, freight & courier costs\nTax Type: EXEMPTINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: General Expenses\nCode: 429\nID: f96c9458-d724-47bf-8f74-a9d5726465ce\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred that relate to the general running of the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Insurance\nCode: 433\nID: 76f6de94-7e42-4efd-90e2-772eb6a43835\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred for insuring the business' assets\nTax Type: EXEMPTINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: Interest Paid\nCode: 437\nID: e55fefe0-f975-443b-9665-b1d61e90aa48\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Interest paid on a business bank account or credit card account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Legal Expenses\nCode: 441\nID: 7b05fb86-bf6f-46ea-bada-ab91dfc43040\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on any legal matters\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Light, Power, Heating\nCode: 445\nID: d50842c3-af67-4233-b8c9-df3180f5b7bd\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred for lighting, power or heating the business premises\nTax Type: RRINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: Motor Vehicle Expenses\nCode: 449\nID: 0be1631e-cc7e-4c27-951f-308c3307c0fe\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on the running of business motor vehicles\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Operating Lease Payments\nCode: 457\nID: ef029623-cce8-4feb-b416-0d5256fd482b\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on operating expenses such as office rental and vehicle leases (excludes hire purchase agreements)\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Printing & Stationery\nCode: 461\nID: cba6527d-f102-4538-b421-e483233e9d5a\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on printing and stationery\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: IT Software and Consumables\nCode: 463\nID: 49526ea7-d268-4af1-b532-f631087d19e1\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred  on  software or computer consumables\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Rates\nCode: 465\nID: 9297da4c-7bc7-457e-86b1-248c5313bf9e\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments made to local council for rates\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Rent\nCode: 469\nID: dae8e236-24bb-4a7a-9787-c5fd89385e03\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments  made to lease a building or area\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Repairs & Maintenance\nCode: 473\nID: 68743953-845a-4546-827a-5b3143136d14\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred on a damaged or run down asset that will bring the asset back to its original condition\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Salaries\nCode: 477\nID: 81da553d-c6c6-411e-95df-cc4ac8f7e1c2\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payment to employees in exchange for their resources\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Directors' Remuneration\nCode: 478\nID: 5da50e63-76b8-471d-951f-81662e9e35a9\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments to company directors in exchange for their resources\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Employers National Insurance\nCode: 479\nID: 4e24254c-2770-433d-9845-8925ded5e14a\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payment made for National Insurance contributions - business contribution only\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Staff Training\nCode: 480\nID: 87e2c007-4a7c-43d7-a19d-b82dcf529313\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred in relation to training staff\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Pensions Costs\nCode: 482\nID: edda7154-dfc8-4486-a82b-e5e955408eaa\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments made to pension schemes\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Medical Insurance\nCode: 483\nID: 778191e2-baaa-4813-aa97-cf7c3afb08f8\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Payments made to medical insurance schemes\nTax Type: EXEMPTINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: Subscriptions\nCode: 485\nID: a40f43e2-c7b0-4187-919a-04ccdc14a630\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred by the business in relation to subscriptions, such as magazines and professional bodies\nTax Type: EXEMPTINPUT"
+    },
+    {
+      "type": "text",
+      "text": "Account: Telephone & Internet\nCode: 489\nID: f3c73c3d-9887-4377-b18b-0374ab62e4aa\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred from any business-related phone calls, phone lines, or internet connections\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Travel - National\nCode: 493\nID: c7b73345-7f25-428a-bb97-7b20a1470a53\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred from any domestic business travel\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Travel - International\nCode: 494\nID: d10a459c-6ed8-48d9-ba90-713719fe1c87\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Expenses incurred from any international business travel\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Bank Revaluations\nCode: 497\nID: 240ae3e2-26b7-4aa1-9aa9-8dc466f34652\nType: EXPENSE\nStatus: ACTIVE\nDescription: Bank account revaluations due for foreign exchange rate changes\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Unrealised Currency Gains\nCode: 498\nID: ed5f5fd6-63cf-4036-b56d-78b20c34f4f5\nType: EXPENSE\nStatus: ACTIVE\nDescription: Unrealised currency gains on outstanding items\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Realised Currency Gains\nCode: 499\nID: ef070541-89aa-465d-b984-a4d58ebe7ef8\nType: EXPENSE\nStatus: ACTIVE\nDescription: Gains or losses made due to currency exchange rate changes\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Corporation Tax\nCode: 500\nID: f8e9df7e-1bdb-44a0-828d-991d62ee76a2\nType: OVERHEADS\nStatus: ACTIVE\nDescription: Tax payable on business profits\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Accounts Receivable\nCode: 610\nID: 8add7c44-ffe0-4a42-869e-b85dadd5eac1\nType: CURRENT\nStatus: ACTIVE\nDescription: Invoices the business has issued but has not yet collected payment on\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Provision for Doubtful Debts\nCode: 611\nID: 8623e401-09c8-4997-83c0-c8ec43a5bb98\nType: CURRENT\nStatus: ACTIVE\nDescription: A provision anticipating that a portion of accounts receivable will never be collected\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Prepayments\nCode: 620\nID: b94def36-ab5a-4ba9-9b2e-8879efc35ea5\nType: CURRENT\nStatus: ACTIVE\nDescription: An expenditure that has been paid for in advance\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Inventory\nCode: 630\nID: a1e2c53a-18b9-40cb-8e87-e2db200fe8af\nType: INVENTORY\nStatus: ACTIVE\nDescription: Value of tracked inventory items for resale.\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Office Equipment\nCode: 710\nID: a4602fb6-2e9d-4064-b318-c409032692ba\nType: FIXED\nStatus: ACTIVE\nDescription: Office equipment that is owned and controlled by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Office Equipment\nCode: 711\nID: e2115117-1598-4d75-8d29-7e31a89d7f76\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of office equipment costs that has been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Computer Equipment\nCode: 720\nID: 8d1ae68b-1251-4b44-9d7a-639b3976935c\nType: FIXED\nStatus: ACTIVE\nDescription: Computer equipment that is owned and controlled by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Computer Equipment\nCode: 721\nID: b82e52f5-5aba-4a30-9f72-dc64df23ecdb\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of computer equipment costs that has been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Buildings\nCode: 740\nID: b03f4e40-d2ff-4472-9cec-78fef59a8d4e\nType: FIXED\nStatus: ACTIVE\nDescription: Buildings that are owned and controlled by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Buildings\nCode: 741\nID: 08e37d76-ee9f-45dc-95fb-31b222b1464d\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of buildings costs that have been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Leasehold Improvements\nCode: 750\nID: 466ffb84-48be-40ae-b6a5-f1dd72c70074\nType: FIXED\nStatus: ACTIVE\nDescription: The value added to the leased premises via improvements\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Leasehold Improvements\nCode: 751\nID: bee32f20-79fd-4340-add3-cf80427c7281\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of leasehold improvement costs that has been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Motor Vehicles\nCode: 760\nID: 1a034bd0-5e24-4579-96d0-40fb8404ef7b\nType: FIXED\nStatus: ACTIVE\nDescription: Motor vehicles that are owned and controlled by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Motor Vehicles\nCode: 761\nID: 7467bb12-cd55-40cb-9574-04b80e981506\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of motor vehicle costs that has been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Plant & Machinery\nCode: 764\nID: 6c05cfb6-1d36-4c5c-895b-4ad999ad94ae\nType: FIXED\nStatus: ACTIVE\nDescription: Plant and machinery that are owned and controlled by the business\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Depreciation on Plant and Machinery\nCode: 765\nID: c19dc341-915d-4d93-9a66-688013acd014\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of plant and machinery cost that has been consumed by the business (based on the useful life)\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Intangibles\nCode: 770\nID: ccec67a2-3d94-4b15-96d8-df92ce7f2121\nType: FIXED\nStatus: ACTIVE\nDescription: Assets with no physical presence e.g. goodwill or patents\nTax Type: INPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Less Accumulated Amortisation on Intangibles\nCode: 771\nID: 3373a5af-2508-4294-9990-b55d9ac1d99f\nType: FIXED\nStatus: ACTIVE\nDescription: The total amount of intangibles that have been consumed by the business\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Accounts Payable\nCode: 800\nID: e0faa299-ca0d-4b0a-9e32-0dfabdf9179a\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Invoices the company has received from suppliers but have not made payment on\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Unpaid Expense Claims\nCode: 801\nID: 1873bf00-e52f-48e9-89d6-619c93723f60\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Expense claims typically made by employees/shareholder employees which the business has not made payment on\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Wage Payables\nCode: 803\nID: f8a3c6d2-b682-4d0c-baac-f88c0f00f328\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Xero automatically updates this account for payroll entries created using Payroll and will store the payroll amount to be paid to the employee for the pay run. This account enables you to maintain separate accounts for employee Wages Payable amounts and Accounts Payable amounts\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Accruals\nCode: 805\nID: 97284640-1311-4763-a41f-bcbce4804ed2\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Any services the business has received but have not yet been invoiced for e.g. Accountancy Fees\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Income in Advance\nCode: 810\nID: 4b2c9ba4-12e1-48b5-8f59-86f85fb33f63\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Any income the business has received but have not provided the goods or services for\nTax Type: OUTPUT2"
+    },
+    {
+      "type": "text",
+      "text": "Account: Credit Card Control Account\nCode: 811\nID: 998c34a8-bfbd-4cc5-ae3b-197338f01423\nType: CURRLIAB\nStatus: ACTIVE\nDescription: The amount owing on the company's credit cards\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Wages Payable - Payroll\nCode: 814\nID: 9ee28149-32a9-4661-8eab-a28738696983\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Where this account is set as the nominated Wages Payable account within Payroll Settings, Xero allocates the net wage amount of each pay run created using Payroll to this account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: VAT\nCode: 820\nID: b12f79b9-a082-4b8b-971e-d321292943c7\nType: CURRLIAB\nStatus: ACTIVE\nDescription: The balance in this account represents VAT owing to or from the HMRC. At the end of the VAT period, it is this account that should be used to code against either the ‘refunds from’ or ‘payments to’ the HMRC that will appear on the bank statement. Xero has been designed to use only one VAT account to track VAT on income and expenses, so there is no need to add any new VAT accounts to Xero\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: PAYE Payable\nCode: 825\nID: 43072840-e67b-45df-8b90-f52ebedb2779\nType: CURRLIAB\nStatus: ACTIVE\nDescription: The Amount of PAYE tax due to be paid to the HMRC\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: NIC Payable\nCode: 826\nID: a2377a9f-f5bd-4327-8f85-e3461b591912\nType: CURRLIAB\nStatus: ACTIVE\nDescription: The amount of a business' portion of National Insurance Contribution that is due to be paid to the HMRC\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Provision for Corporation Tax\nCode: 830\nID: 0f9b92b8-6b4d-4c9f-a338-c32ac5017540\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Corporation tax payable to the HMRC\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Directors' Loan Account\nCode: 835\nID: 63057ff0-e3b1-421a-99ce-4ba48b90ce35\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Monies owed to or from company directors\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Historical Adjustment\nCode: 840\nID: 7ff95c6a-5849-4030-a361-52165fab6490\nType: CURRLIAB\nStatus: ACTIVE\nDescription: For any accounting and starting balance adjustments\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Suspense\nCode: 850\nID: ffdfba10-e303-43cc-b8a3-344cd40689df\nType: CURRLIAB\nStatus: ACTIVE\nDescription: A clearing account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Clearing Account\nCode: 855\nID: 7b57750f-5fa4-46ac-a0ee-fccddaa8e9d0\nType: CURRLIAB\nStatus: ACTIVE\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Pensions Payable\nCode: 858\nID: d659ebbf-0760-4e07-a1fb-8de6b9ecdff9\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Payroll pension payable account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Rounding\nCode: 860\nID: f0e3a4b5-3e22-446b-9d2a-6f127f05bfa5\nType: CURRLIAB\nStatus: ACTIVE\nDescription: An adjustment entry to allow for rounding\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Earnings Orders Payable\nCode: 868\nID: 921237ae-76ff-4f4c-bf70-5c3c177b149d\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Payroll earnings order account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Tracking Transfers\nCode: 877\nID: a017e676-fabb-4943-a3d5-8dcf3193f289\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Transfers between tracking categories\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Loan\nCode: 900\nID: e974884c-91b1-4d75-84a3-7df09423670f\nType: TERMLIAB\nStatus: ACTIVE\nDescription: Any money that has been borrowed from a creditor\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Hire Purchase Loan\nCode: 910\nID: 6b4f27e1-c2c4-4cea-bf8f-c1e67aceb561\nType: TERMLIAB\nStatus: ACTIVE\nDescription: Any goods bought through hire purchase agreements\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Deferred Tax\nCode: 920\nID: 632ed0c9-a33c-4af3-856f-6dc15775536d\nType: TERMLIAB\nStatus: ACTIVE\nDescription: Used if there is a timing difference between taxable profits and accounting profits\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Student Loan Deductions Payable\nCode: 947\nID: 684466e3-938d-41b9-bd77-ec706382bd7f\nType: CURRLIAB\nStatus: ACTIVE\nDescription: Payroll student loan deductions payable account\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Capital - x,xxx Ordinary Shares\nCode: 950\nID: f82617e7-6580-4bab-8bea-5fcb940e7eb2\nType: EQUITY\nStatus: ACTIVE\nDescription: Paid up capital\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Retained Earnings\nCode: 960\nID: 524c9f2d-e680-4861-82f6-4ad171b51de5\nType: EQUITY\nStatus: ACTIVE\nDescription: Do not Use\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Owner A Funds Introduced\nCode: 970\nID: c1aaa7f2-fef6-43a5-92cb-b5cfb47058ec\nType: EQUITY\nStatus: ACTIVE\nDescription: Funds contributed by the owner\nTax Type: NONE"
+    },
+    {
+      "type": "text",
+      "text": "Account: Owner A Drawings\nCode: 980\nID: 6b26221e-ab1d-4702-ba6f-4a591bc62cef\nType: EQUITY\nStatus: ACTIVE\nDescription: Withdrawals by the owners\nTax Type: NONE"
+    }
+  ]
+}

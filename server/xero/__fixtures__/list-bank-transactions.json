@@ -1,0 +1,48 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 10 bank transactions:"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 3a1be853-5964-4afe-ad6a-fb89cbaf6606\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Wilson Periodicals (bc446de5-971e-48b5-8efd-1745149844ef)\nReference: Sub 098801\nDate: Wed Jul 01 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 35\nTotal: 35\nUnreconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Long-term subscriber discount - refund on sub\nQuantity: 1\nUnit Amount: 35\nAccount Code: 485\nTax Type: EXEMPTINPUT\nTracking: \nLine Amount: 35"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 919b2bac-b5b7-4ed1-97ba-65762ce8b416\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Wilson Periodicals (bc446de5-971e-48b5-8efd-1745149844ef)\nReference: Sub 098801\nDate: Mon Jun 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 49.9\nTotal: 49.9\nUnreconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Subscription\nQuantity: 1\nUnit Amount: 49.9\nAccount Code: 485\nTax Type: EXEMPTINPUT\nTracking: \nLine Amount: 49.9"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: ae6d3eee-3bfa-45d5-b0ab-3c5f7b163e9b\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: 24 Locks (e4c9d0e2-c285-4e85-b579-6d28b180c730)\nReference: Chq 411\nDate: Thu Jun 18 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 57.92\nTotal Tax: 11.58\nTotal: 69.5\nUnreconciled\nCurrency Code: GBP\nDELETED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Emergency locksmith - front office door\nQuantity: 1\nUnit Amount: 69.5\nAccount Code: 473\nTax Type: INPUT2\nTracking: \nLine Amount: 69.5"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: a9baa633-e3e9-41ef-b4aa-741de0720b02\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: 24 Locks (e4c9d0e2-c285-4e85-b579-6d28b180c730)\nDate: Thu Jun 18 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 57.92\nTotal Tax: 11.58\nTotal: 69.5\nReconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: \nQuantity: 1\nUnit Amount: 69.5\nAccount Code: 429\nTax Type: INPUT2\nTracking: \nLine Amount: 69.5"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 54942228-4d87-4214-8fce-d719de5bab96\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Berry Brew (b9d4332a-26a3-4577-8db2-6e830d4b07cd)\nDate: Wed Jun 17 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 18.33\nTotal Tax: 3.67\nTotal: 22\nUnreconciled\nCurrency Code: GBP\nDELETED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Staff coffees\nQuantity: 1\nUnit Amount: 22\nAccount Code: 420\nTax Type: INPUT2\nTracking: \nLine Amount: 22"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 09b13fee-7f44-47a8-b141-dd1cc6be3a32\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Berry Brew (b9d4332a-26a3-4577-8db2-6e830d4b07cd)\nDate: Wed Jun 17 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 18.33\nTotal Tax: 3.67\nTotal: 22\nReconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: \nQuantity: 1\nUnit Amount: 22\nAccount Code: 420\nTax Type: INPUT2\nTracking: \nLine Amount: 22"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 4d95d331-dc71-475d-8c64-09dbc6391387\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Office Supplies Company (74ea95ea-6e1e-435d-9c30-0dff8ae1bd80)\nDate: Tue Jun 16 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 41\nTotal Tax: 8.2\nTotal: 49.2\nReconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Misc stationery\nQuantity: 1\nUnit Amount: 49.2\nAccount Code: 461\nTax Type: INPUT2\nTracking: \nLine Amount: 49.2"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: edadd8bb-5743-436c-bc1d-f681ac309287\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Office Supplies Company (74ea95ea-6e1e-435d-9c30-0dff8ae1bd80)\nReference: Eft\nDate: Tue Jun 16 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 41\nTotal Tax: 8.2\nTotal: 49.2\nUnreconciled\nCurrency Code: GBP\nDELETED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Photocopier paper\nQuantity: 1\nUnit Amount: 49.2\nAccount Code: 461\nTax Type: INPUT2\nTracking: \nLine Amount: 49.2"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 04449ae9-07af-414c-81da-4cac6e6b6f85\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Woolworths Market (be45660b-46fe-412b-9c2e-f667fc5007c3)\nReference: Eft\nDate: Sat Jun 13 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 29.02\nTotal Tax: 5.08\nTotal: 34.1\nUnreconciled\nCurrency Code: GBP\nDELETED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Misc kitchen supplies for office\nQuantity: 1\nUnit Amount: 34.1\nAccount Code: 429\nTax Type: INPUT\nTracking: \nLine Amount: 34.1"
+    },
+    {
+      "type": "text",
+      "text": "Bank Transaction ID: 26c56ed5-465c-476b-a4d4-cb43ae3f60ae\nBank Account: Business Bank Account (bd9e85e0-0478-433d-ae9f-0b3c4f04bfe4)\nContact: Woolworths Market (be45660b-46fe-412b-9c2e-f667fc5007c3)\nDate: Sat Jun 13 2026 01:00:00 GMT+0100 (英国夏令时间)\nSub Total: 28.42\nTotal Tax: 5.68\nTotal: 34.1\nReconciled\nCurrency Code: GBP\nAUTHORISED\nLine Amount Types: Inclusive\nDoes not have attachments\nLine Items: Item ID: undefined\nItem Code: undefined\nDescription: Misc kitchen supplies for office\nQuantity: 1\nUnit Amount: 34.1\nAccount Code: 429\nTax Type: INPUT2\nTracking: \nLine Amount: 34.1"
+    }
+  ]
+}

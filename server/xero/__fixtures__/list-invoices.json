@@ -1,0 +1,356 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 87 invoices:"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: be30b6c1-a4e6-47ca-b2a6-04051f00f7b7\nInvoice: RPT469-1\nType: ACCPAY\nStatus: PAID\nContact: Truxton Property Management (aca6e01a-1815-474c-bd0f-18adfd95cfcb)\nDate: Sun May 24 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun May 24 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 984.38\nTotal Tax: 196.87\nTotal: 1181.25\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 22:33:45 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat Jun 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1181.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 8f02561b-8cc3-4e37-b0b9-1a8eb53bbd14\nInvoice: RPT402-1\nType: ACCPAY\nStatus: PAID\nContact: Xero (ac48c67d-3eea-44eb-96b1-9f7a89d9b761)\nDate: Sun Jun 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Jun 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 46.96\nTotal Tax: 9.39\nTotal: 56.35\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 22:33:33 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sun Jun 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 56.35"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: a633d5f2-396c-4e1f-ab3a-b4574d82ee1c\nInvoice: INV-0027\nReference: Yr Ref W08-143\nType: ACCREC\nStatus: AUTHORISED\nContact: DIISR - Small Business Services (1262c350-fe0f-40ec-aeff-41c95b4a45af)\nDate: Fri May 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon May 18 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 708.33\nTotal Tax: 141.67\nTotal: 850\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:33:07 GMT+0000 (格林尼治标准时间)\nAmount Due: 270.63\nAmount Paid: 579.37"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: b9336b12-7f25-489f-b42c-033bb279b418\nInvoice: Dep\nType: ACCPAY\nStatus: PAID\nContact: Carlton Functions (4acf731f-af81-4ed3-96b2-0c408b2d98c0)\nDate: Wed Jun 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jun 20 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1250\nTotal Tax: 250\nTotal: 1500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:31:15 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat Jun 20 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 4fa687d4-2335-4ff2-9ab4-73510b59a5fe\nInvoice: 08-4123\nType: ACCPAY\nStatus: PAID\nContact: Hoyt Productions (8894cc85-85c2-4fd2-9eb6-537179d1a12d)\nDate: Tue Jun 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jun 19 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 4961.46\nTotal Tax: 992.29\nTotal: 5953.75\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:31:07 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 19 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 5953.75"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 710f39f5-8487-43b8-b929-216a6bd80102\nInvoice: INV-0033\nReference: Yr Ref W08-143\nType: ACCREC\nStatus: PAID\nContact: DIISR - Small Business Services (1262c350-fe0f-40ec-aeff-41c95b4a45af)\nDate: Sat Jun 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jun 16 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 224.95\nTotal Tax: 45\nTotal: 269.95\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:49 GMT+0000 (格林尼治标准时间)\nFully Paid On: Mon Jun 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 250\nAmount Credited: 19.95"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 555386e7-fe5e-4683-b4d7-fab9d2461f3b\nInvoice: INV-0032\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Rex Media Group (b2c1f980-96c9-45ff-a42b-dca141936c6c)\nDate: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jun 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:32 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 12 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 9ca7145e-3c31-4b2a-90c4-b685fb73bf80\nInvoice: INV-0031\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Port & Philip Freight (847933f0-7c35-4e5b-b884-5f9df64c8e4b)\nDate: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jun 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:29 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 12 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 80241a0e-c8f8-4010-9c18-d5d57a42d2de\nInvoice: INV-0030\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Young Bros Transport (94a82e91-53da-4f87-a417-63d6a1607ced)\nDate: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jun 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:28 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 12 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 4fe0cde0-7dda-4de9-b683-138829d54e80\nInvoice: INV-0029\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Hamilton Smith Ltd (af0091a9-82ef-4cac-9fd6-22c095ac6a58)\nDate: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jun 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:26 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 12 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 749edbe7-e398-4002-9ccb-404658ffee2b\nInvoice: INV-0024\nReference: Training\nType: ACCREC\nStatus: PAID\nContact: Boom FM (9ce626d2-14ea-463c-9fff-6785ab5f9bfb)\nDate: Sat May 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jun 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 833.34\nTotal Tax: 166.66\nTotal: 1000\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:13 GMT+0000 (格林尼治标准时间)\nFully Paid On: Tue Jun 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1000"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 04e24ae7-98e7-4672-8377-335ef23bdaf0\nInvoice: INV-0022\nReference: Portal Proj\nType: ACCREC\nStatus: PAID\nContact: Petrie McLoud Watson & Associates (7eccc5ab-cee8-4af4-b2a9-3f9b17f03095)\nDate: Fri May 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jun 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1172.71\nTotal Tax: 234.54\nTotal: 1407.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 22:30:10 GMT+0000 (格林尼治标准时间)\nFully Paid On: Mon Jun 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1407.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 4fe78373-1398-4018-8fe4-1af776f60c1b\nInvoice: RPT429-1\nType: ACCPAY\nStatus: PAID\nContact: Swanston Security (3a0d40a2-2698-4cf5-b7b2-30133c632ab6)\nDate: Sat May 23 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat May 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 49.62\nTotal Tax: 9.92\nTotal: 59.54\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 22:30:06 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat Jun 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 59.54"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 864be2b0-99e6-4f72-97f7-507c6ec32093\nInvoice: RPT402-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: Xero (ac48c67d-3eea-44eb-96b1-9f7a89d9b761)\nDate: Sun May 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun May 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 46.96\nTotal Tax: 9.39\nTotal: 56.35\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 22:28:55 GMT+0000 (格林尼治标准时间)\nAmount Due: 56.35"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 9feb8181-b9cd-43ef-a76f-6f86e7d9ff2e\nInvoice: RPT489-1\nType: ACCPAY\nStatus: PAID\nContact: Net Connect (97cc88ca-f89b-41f0-b8b9-e750b6f2f1d9)\nDate: Thu Apr 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun May 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 39.02\nTotal Tax: 7.8\nTotal: 46.82\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:59:11 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 46.82"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 5eabc2aa-119b-407c-944e-5d1f7adc93b2\nInvoice: RPT489-1\nType: ACCPAY\nStatus: PAID\nContact: Net Connect (97cc88ca-f89b-41f0-b8b9-e750b6f2f1d9)\nDate: Thu May 28 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Jun 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 42.92\nTotal Tax: 8.58\nTotal: 51.5\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:59:11 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 51.5"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 1160fdc8-300a-42a3-a9d9-2ee28fbe7a18\nInvoice: INV-0020\nReference: P/O CRM08-12\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Tue May 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 5156.25\nTotal Tax: 1031.25\nTotal: 6187.5\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:58:48 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 6187.5"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 22ba8536-cb53-47f1-bfe8-8a17d00791ed\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Tue May 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 103.43\nTotal Tax: 5.17\nTotal: 108.6\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:58:41 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jun 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 108.6"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 81d2c35c-6bd0-4901-b084-630d0325f603\nInvoice: RPT469-1\nType: ACCPAY\nStatus: PAID\nContact: Truxton Property Management (aca6e01a-1815-474c-bd0f-18adfd95cfcb)\nDate: Sun Apr 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Apr 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 984.38\nTotal Tax: 196.87\nTotal: 1181.25\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 21:58:30 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat May 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1181.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 94f824a9-5346-4193-b0ec-1fde675df289\nInvoice: 720-2\nType: ACCPAY\nStatus: PAID\nContact: PC Complete (cf8fa320-a527-496c-823e-22dd069d29e6)\nDate: Wed Apr 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat May 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1445.2\nTotal Tax: 289.04\nTotal: 1734.24\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:58:11 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat May 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1463.88\nAmount Credited: 270.36"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 65c2b5a6-4767-4df6-97e0-f62b46f64e15\nInvoice: INV-0018\nReference: Workshop\nType: ACCREC\nStatus: PAID\nContact: City Agency (2dd82f49-e818-4dd0-955b-b637ccaa5597)\nDate: Wed Apr 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat May 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 274.83\nTotal Tax: 54.97\nTotal: 329.8\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:57:55 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sat May 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 329.8"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: a12f582d-47e6-4706-a2e6-f8979f0aad7e\nInvoice: INV-0011\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Sun Apr 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed May 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 2083.34\nTotal Tax: 416.66\nTotal: 2500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:57:50 GMT+0000 (格林尼治标准时间)\nFully Paid On: Wed May 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 2500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 59978bef-af2f-4a7e-9728-4997597c0980\nInvoice: RPT445-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Tue Apr 28 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri May 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 129.38\nTotal Tax: 6.47\nTotal: 135.85\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:56:20 GMT+0000 (格林尼治标准时间)\nAmount Due: 135.85"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 8e65df54-4bbd-41f3-b241-8da2588be341\nInvoice: RPT429-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: Swanston Security (3a0d40a2-2698-4cf5-b7b2-30133c632ab6)\nDate: Sat Apr 25 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat May 02 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 49.62\nTotal Tax: 9.92\nTotal: 59.54\nCurrency: GBP\nLast Updated: Sun Jan 03 2021 21:56:19 GMT+0000 (格林尼治标准时间)\nAmount Due: 34.1\nAmount Credited: 25.44"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 444d5808-d8dc-408f-945d-974fe8441dfa\nInvoice: 408\nType: ACCPAY\nStatus: AUTHORISED\nContact: MCO Cleaning Services (8a593982-291c-4ec3-9a42-3dbccbc6e3c8)\nDate: Sat May 02 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue May 12 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 99.23\nTotal Tax: 19.85\nTotal: 119.08\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:56:19 GMT+0000 (格林尼治标准时间)\nAmount Due: 119.08"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 51f1a93e-c23b-4515-b4f0-e00ccf0f9ea7\nInvoice: 945-Ocon\nType: ACCPAY\nStatus: AUTHORISED\nContact: Central Copiers (3828f379-afa5-4b2a-9000-9c53d75ba1c6)\nDate: Thu Apr 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun May 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 886.3\nTotal Tax: 177.26\nTotal: 1063.56\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun Jan 03 2021 21:56:17 GMT+0000 (格林尼治标准时间)\nAmount Due: 1063.56"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 5d91be3d-6c7c-4885-acbc-2d1ca7b9c06e\nInvoice: INV-0002\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Thu Jul 24 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Aug 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Sat Jan 02 2021 22:51:44 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sun Aug 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 4b6d0c8f-10fa-42cd-a6e5-53b175e90005\nInvoice: INV-0001\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Tue Jun 24 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 04 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Sat Jan 02 2021 22:51:43 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jul 04 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 2a7a8ec4-ac5a-4690-a136-cc2dc9c76def\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Sat Jul 26 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Aug 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 92.38\nTotal Tax: 4.62\nTotal: 97\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 22:51:08 GMT+0000 (格林尼治标准时间)\nFully Paid On: Tue Aug 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 97"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 51d523ef-2d0f-4afa-aa32-0558f68b06a6\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Thu Jun 26 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Jul 06 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 90.95\nTotal Tax: 4.55\nTotal: 95.5\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 22:51:06 GMT+0000 (格林尼治标准时间)\nFully Paid On: Sun Jul 06 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 95.5"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 3945273c-cc04-479f-a4b5-1e3dc7a55ed1\nInvoice: \nType: ACCPAY\nStatus: PAID\nContact: DIISR - Small Business Services (1262c350-fe0f-40ec-aeff-41c95b4a45af)\nDate: Sat Apr 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue May 06 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Exclusive\nSub Total: 6056\nTotal Tax: 1211.2\nTotal: 7267.2\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 21:07:23 GMT+0000 (格林尼治标准时间)\nFully Paid On: Tue May 06 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 7267.2"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 09aa506f-cb81-4cd3-a1ea-6a0b91804d5a\nInvoice: \nType: ACCPAY\nStatus: PAID\nContact: DIISR - Small Business Services (1262c350-fe0f-40ec-aeff-41c95b4a45af)\nDate: Tue Jun 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 04 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Exclusive\nSub Total: 6056\nTotal Tax: 1211.2\nTotal: 7267.2\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 21:06:22 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jul 04 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 7267.2"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 24221629-2e0c-452e-a407-28ba20e1241e\nInvoice: INV-0045\nType: ACCREC\nStatus: AUTHORISED\nContact: Boom FM (9ce626d2-14ea-463c-9fff-6785ab5f9bfb)\nDate: Sat Jul 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jul 18 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1353.13\nTotal Tax: 270.62\nTotal: 1623.75\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 20:52:46 GMT+0000 (格林尼治标准时间)\nAmount Due: 1623.75"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: c378c9e2-4111-43bb-9548-4d6dfa313499\nInvoice: INV-0044\nType: ACCREC\nStatus: AUTHORISED\nContact: DIISR - Small Business Services (1262c350-fe0f-40ec-aeff-41c95b4a45af)\nDate: Wed Jul 01 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jul 25 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 3500\nTotal Tax: 700\nTotal: 4200\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 20:48:17 GMT+0000 (格林尼治标准时间)\nAmount Due: 4200"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 5c8a6eb6-7a9b-4ac1-ac81-60043f0fdb43\nInvoice: INV-0043\nType: ACCREC\nStatus: AUTHORISED\nContact: Bayside Club (362819c9-f285-4d09-ac95-26327863adac)\nDate: Mon Jun 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jul 13 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 2666.67\nTotal Tax: 533.33\nTotal: 3200\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 20:44:33 GMT+0000 (格林尼治标准时间)\nAmount Due: 3200"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 321bfed3-2da2-4969-9358-4de97821181b\nInvoice: INV-001-0\nType: ACCREC\nStatus: PAID\nContact: Maddox Publishing Group (afd4093b-c655-4847-8ee2-10a4f2c3eae3)\nDate: Tue May 06 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jun 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 3500\nTotal Tax: 700\nTotal: 4200\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sat Jan 02 2021 20:34:51 GMT+0000 (格林尼治标准时间)\nFully Paid On: Fri Jul 04 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 4200"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 44aa0707-f718-4f1c-8d53-f2da9ca59533\nInvoice: INV-0039\nReference: Monthly support\nType: ACCREC\nStatus: DRAFT\nContact: Hamilton Smith Ltd (af0091a9-82ef-4cac-9fd6-22c095ac6a58)\nDate: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 458.33\nTotal Tax: 91.67\nTotal: 550\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Fri Jun 24 2016 18:01:52 GMT+0100 (英国夏令时间)\nAmount Due: 550"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 3f14ffc4-b990-45d8-9872-0719fda945f8\nInvoice: INV-0040\nReference: Monthly support\nType: ACCREC\nStatus: DRAFT\nContact: Rex Media Group (b2c1f980-96c9-45ff-a42b-dca141936c6c)\nDate: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 458.33\nTotal Tax: 91.67\nTotal: 550\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Fri Jun 24 2016 18:01:40 GMT+0100 (英国夏令时间)\nAmount Due: 550"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 2423fa22-c7cd-408c-8319-49b5a2a07fac\nInvoice: INV-0042\nType: ACCREC\nStatus: AUTHORISED\nContact: Port & Philip Freight (847933f0-7c35-4e5b-b884-5f9df64c8e4b)\nDate: Thu Jun 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jul 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1995\nTotal: 1995\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun May 10 2015 22:01:59 GMT+0100 (英国夏令时间)\nAmount Due: 1995"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: ffb382c7-4aea-4aaa-9a6d-a5dc82d411fa\nInvoice: INV-0041\nType: ACCREC\nStatus: AUTHORISED\nContact: Port & Philip Freight (847933f0-7c35-4e5b-b884-5f9df64c8e4b)\nDate: Wed Jun 03 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 03 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 250\nTotal: 250\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Sun May 10 2015 21:57:30 GMT+0100 (英国夏令时间)\nAmount Due: 250"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: f9eb4838-d48b-4931-8dac-ed5ec55f6ad8\nInvoice: \nType: ACCPAY\nStatus: AUTHORISED\nContact: Bayside Club (362819c9-f285-4d09-ac95-26327863adac)\nDate: Tue Jun 23 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 03 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 108.33\nTotal Tax: 21.67\nTotal: 130\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Jan 14 2013 23:32:07 GMT+0000 (格林尼治标准时间)\nAmount Due: 130"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 3d9bc4f4-d3d2-48a1-b5c2-c8eb313d199c\nInvoice: SM0210\nType: ACCPAY\nStatus: AUTHORISED\nContact: SMART Agency (f5a77e82-50e3-4340-a6e0-13d6a482a08a)\nDate: Wed Jun 17 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jun 27 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 2083.33\nTotal Tax: 416.67\nTotal: 2500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Fri May 18 2012 23:19:24 GMT+0100 (英国夏令时间)\nAmount Due: 2500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 41bcdfc5-c52f-4e1d-bf84-61b8155506f7\nInvoice: SM0195\nType: ACCPAY\nStatus: AUTHORISED\nContact: SMART Agency (f5a77e82-50e3-4340-a6e0-13d6a482a08a)\nDate: Sun May 17 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed May 27 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1666.67\nTotal Tax: 333.33\nTotal: 2000\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Fri May 18 2012 23:18:50 GMT+0100 (英国夏令时间)\nAmount Due: 2000"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 6bf54d50-b3ce-4f00-b13f-6216b66ed6ee\nInvoice: INV-0038\nReference: GB1-White\nType: ACCREC\nStatus: AUTHORISED\nContact: Bayside Club (362819c9-f285-4d09-ac95-26327863adac)\nDate: Wed Jul 01 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jul 11 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 196.67\nTotal Tax: 37.33\nTotal: 234\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 11 2011 01:31:43 GMT+0100 (英国夏令时间)\nAmount Due: 234"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: b86e37bb-446f-4b51-b391-b9f71728aef7\nInvoice: RPT469-1\nType: ACCPAY\nStatus: PAID\nContact: Truxton Property Management (aca6e01a-1815-474c-bd0f-18adfd95cfcb)\nDate: Wed Jun 24 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jun 24 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 984.38\nTotal Tax: 196.87\nTotal: 1181.25\nCurrency: GBP\nLast Updated: Mon Apr 11 2011 01:27:23 GMT+0100 (英国夏令时间)\nFully Paid On: Wed Jun 24 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1181.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 69a7ab27-b220-4b2a-9c85-66ec14840db8\nInvoice: ABC\nType: ACCPAY\nStatus: AUTHORISED\nContact: Young Bros Transport (94a82e91-53da-4f87-a417-63d6a1607ced)\nDate: Mon Jun 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jul 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 104.19\nTotal Tax: 20.84\nTotal: 125.03\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 11 2011 01:22:30 GMT+0100 (英国夏令时间)\nAmount Due: 125.03"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: b3962578-11e7-42f7-b2e8-da900bed7a96\nInvoice: RPT429-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: Swanston Security (3a0d40a2-2698-4cf5-b7b2-30133c632ab6)\nDate: Tue Jun 23 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 49.62\nTotal Tax: 9.92\nTotal: 59.54\nCurrency: GBP\nLast Updated: Thu Apr 07 2011 08:21:45 GMT+0100 (英国夏令时间)\nAmount Due: 59.54"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 8f3c09ae-7b12-4391-b64a-5d74ca25fdaf\nInvoice: INV-0037\nReference: Ref MK815\nType: ACCREC\nStatus: AUTHORISED\nContact: Marine Systems (94cb6d7b-5291-49f3-a0bc-fc0c01e68575)\nDate: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 330\nTotal Tax: 66\nTotal: 396\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 04:47:39 GMT+0100 (英国夏令时间)\nAmount Due: 396"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: b16c6503-b49c-4289-8bbb-0c0d33655583\nInvoice: INV-0036\nType: ACCREC\nStatus: AUTHORISED\nContact: Basket Shop (305ca5cf-497d-4fee-a161-cdb30e6be989)\nDate: Mon Jun 29 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Thu Jul 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 762.12\nTotal Tax: 152.43\nTotal: 914.55\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 04:40:03 GMT+0100 (英国夏令时间)\nAmount Due: 914.55"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: c0b7d42c-5229-4e03-97cb-d65ebb9bbc7b\nInvoice: INV-0035\nReference: P/O CRM08-12\nType: ACCREC\nStatus: AUTHORISED\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Sun Jun 21 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 01 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 5156.25\nTotal Tax: 1031.25\nTotal: 6187.5\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 04:38:44 GMT+0100 (英国夏令时间)\nAmount Due: 6187.5"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: dfaf06a3-21d8-4637-abf9-f4a8d635d1ee\nInvoice: INV-0034\nReference: P/O 9711\nType: ACCREC\nStatus: AUTHORISED\nContact: City Limousines (c523e12f-8b74-4d3a-bbd8-32d7a2f598b4)\nDate: Sun Jun 28 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 541.67\nTotal Tax: 108.33\nTotal: 650\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 04:38:01 GMT+0100 (英国夏令时间)\nAmount Due: 650"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: dc55bc82-652a-4538-b50f-62dd0ae3a89c\nInvoice: INV-0028\nReference: Book\nType: ACCREC\nStatus: AUTHORISED\nContact: City Limousines (c523e12f-8b74-4d3a-bbd8-32d7a2f598b4)\nDate: Wed May 13 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat May 23 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 16.62\nTotal Tax: 3.33\nTotal: 19.95\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 04:08:58 GMT+0100 (英国夏令时间)\nAmount Due: 19.95"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 8c4a3981-0865-46ee-8038-62d270f952b3\nInvoice: INV-0021\nReference: Training\nType: ACCREC\nStatus: PAID\nContact: Boom FM (9ce626d2-14ea-463c-9fff-6785ab5f9bfb)\nDate: Wed May 27 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Jun 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 03:47:04 GMT+0100 (英国夏令时间)\nFully Paid On: Sat May 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Credited: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: dcf32f80-0eb3-4666-830d-1c48266cf3c1\nInvoice: RPT402-1\nType: ACCPAY\nStatus: PAID\nContact: Xero (ac48c67d-3eea-44eb-96b1-9f7a89d9b761)\nDate: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 46.96\nTotal Tax: 9.39\nTotal: 56.35\nCurrency: GBP\nLast Updated: Thu Apr 07 2011 02:25:31 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 56.35"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 7502615a-d62f-423c-8e27-fd8eddc40c70\nInvoice: INV-0019\nReference: Training\nType: ACCREC\nStatus: PAID\nContact: Bank West (a852a44c-3d8f-4c4b-a628-3a2c2121b9b1)\nDate: Wed Apr 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sat Apr 25 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1250.01\nTotal Tax: 249.99\nTotal: 1500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:37:50 GMT+0100 (英国夏令时间)\nFully Paid On: Sat Apr 25 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 773b421f-a764-4035-8664-625e4335d0e3\nInvoice: INV-0016\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Hamilton Smith Ltd (af0091a9-82ef-4cac-9fd6-22c095ac6a58)\nDate: Sun Apr 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Apr 15 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:34:38 GMT+0100 (英国夏令时间)\nFully Paid On: Mon Apr 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Credited: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 2a88c529-47ae-4345-8098-a7312585c4a3\nInvoice: INV-0015\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Rex Media Group (b2c1f980-96c9-45ff-a42b-dca141936c6c)\nDate: Sat Apr 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:32:32 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 9dd1fb78-5794-4307-86fb-dd588d4eee13\nInvoice: INV-0014\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Port & Philip Freight (847933f0-7c35-4e5b-b884-5f9df64c8e4b)\nDate: Sat Apr 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:32:15 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: fcecfa38-ae41-4d5f-8816-6c374732684c\nInvoice: INV-0013\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Young Bros Transport (94a82e91-53da-4f87-a417-63d6a1607ced)\nDate: Sat Apr 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:31:54 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: eb58c08e-782e-4aa9-924e-ba0c918a4b45\nInvoice: INV-0012\nReference: Monthly Support\nType: ACCREC\nStatus: PAID\nContact: Hamilton Smith Ltd (af0091a9-82ef-4cac-9fd6-22c095ac6a58)\nDate: Sat Apr 04 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 451.04\nTotal Tax: 90.21\nTotal: 541.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:31:31 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Apr 14 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 541.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 9d1e6da7-2f6f-4d37-87e6-d1b64f9c4874\nInvoice: RPT489-1\nType: ACCPAY\nStatus: PAID\nContact: Net Connect (97cc88ca-f89b-41f0-b8b9-e750b6f2f1d9)\nDate: Mon Mar 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 37.43\nTotal Tax: 7.49\nTotal: 44.92\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:23:22 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 44.92"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 788212e4-88fd-4c06-83a5-45a501463c19\nInvoice: RPT469-1\nType: ACCPAY\nStatus: PAID\nContact: Truxton Property Management (aca6e01a-1815-474c-bd0f-18adfd95cfcb)\nDate: Thu Mar 26 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Thu Mar 26 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 984.38\nTotal Tax: 196.87\nTotal: 1181.25\nCurrency: GBP\nLast Updated: Thu Apr 07 2011 01:22:55 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1181.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 5e82d005-4159-4400-8b68-a6b5f45c5e36\nInvoice: 720-1\nType: ACCPAY\nStatus: PAID\nContact: PC Complete (cf8fa320-a527-496c-823e-22dd069d29e6)\nDate: Mon Mar 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 1583.33\nTotal Tax: 316.67\nTotal: 1900\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Thu Apr 07 2011 01:22:28 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Apr 09 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1900"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 925cfb10-37ce-43d5-a473-3b329271c810\nInvoice: CS815\nType: ACCPAY\nStatus: AUTHORISED\nContact: Capital Cab Co (51cbbfb0-8dc9-41aa-aad6-eb93b3cc40c6)\nDate: Thu Jul 02 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jul 20 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 201.67\nTotal Tax: 40.33\nTotal: 242\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 22:20:27 GMT+0100 (英国夏令时间)\nAmount Due: 242"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: b1b4f969-a6e3-478c-b0e9-e232d6d81724\nInvoice: GB1-White\nType: ACCPAY\nStatus: AUTHORISED\nContact: Bayside Wholesale (2dc0ef7c-582f-4542-963b-dbdc069e4819)\nDate: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Jul 10 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 700\nTotal Tax: 140\nTotal: 840\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 22:18:44 GMT+0100 (英国夏令时间)\nAmount Due: 840"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 0ccc0148-8d9d-4200-aeac-ade429ebe58c\nInvoice: 449\nType: ACCPAY\nStatus: PAID\nContact: Gateway Motors (f559658a-68da-42b1-81ae-42a96b6c6953)\nDate: Tue Jun 30 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Tue Jul 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 342.79\nTotal Tax: 68.56\nTotal: 411.35\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 22:13:40 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Jul 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 411.35"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: aaa49f06-c09e-452e-86ee-a14e8453ba3c\nInvoice: 710\nType: ACCPAY\nStatus: AUTHORISED\nContact: ABC Furniture (699f0091-b127-4796-9f15-41a2f42abeb2)\nDate: Sun Jun 28 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Exclusive\nSub Total: 1000\nTotal Tax: 200\nTotal: 1200\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 22:10:13 GMT+0100 (英国夏令时间)\nAmount Due: 1200"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 26be16b6-2287-4e6c-a735-8527c05043f6\nInvoice: INV-0023\nReference: P/O 9711\nType: ACCREC\nStatus: AUTHORISED\nContact: City Limousines (c523e12f-8b74-4d3a-bbd8-32d7a2f598b4)\nDate: Fri May 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon May 18 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 208.33\nTotal Tax: 41.67\nTotal: 250\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 05:35:34 GMT+0100 (英国夏令时间)\nAmount Due: 250"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 318fbe79-0db3-4473-87f1-fd7381dc9185\nInvoice: INV-0017\nReference: P/O 9711\nType: ACCREC\nStatus: AUTHORISED\nContact: City Limousines (c523e12f-8b74-4d3a-bbd8-32d7a2f598b4)\nDate: Tue Apr 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Apr 17 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 208.33\nTotal Tax: 41.67\nTotal: 250\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Wed Apr 06 2011 05:30:02 GMT+0100 (英国夏令时间)\nAmount Due: 250"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 6db739d7-3d12-4c74-9906-81ac467979b1\nInvoice: RPT489-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: Net Connect (97cc88ca-f89b-41f0-b8b9-e750b6f2f1d9)\nDate: Sun Jun 28 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Jul 08 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 45.11\nTotal Tax: 9.02\nTotal: 54.13\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Tue Apr 05 2011 09:21:44 GMT+0100 (英国夏令时间)\nAmount Due: 54.13"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: bb4b5ebb-489e-4bc9-911c-db65ad2c8564\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Sat Mar 28 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Tue Apr 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 113.41\nTotal Tax: 5.67\nTotal: 119.08\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:35:55 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Apr 07 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 119.08"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: a81179d0-f4a7-4150-8f36-803dd75d6fbb\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Wed Feb 25 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Sat Mar 07 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 101.43\nTotal Tax: 5.07\nTotal: 106.5\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:35:41 GMT+0100 (英国夏令时间)\nFully Paid On: Sat Mar 07 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 106.5"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 96145b5f-a34b-4b93-bc5d-0d8c2d08eb23\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Mon Jan 26 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Thu Feb 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 100.71\nTotal Tax: 5.04\nTotal: 105.75\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:35:27 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Feb 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 105.75"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 6168eab0-e3bc-41ba-ac49-2d2f7116f2bc\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Fri Dec 26 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Mon Jan 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 95.81\nTotal Tax: 4.79\nTotal: 100.6\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:35:15 GMT+0100 (英国夏令时间)\nFully Paid On: Mon Jan 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 100.6"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: cfa7a41f-a108-4ddb-a95a-d883f4858297\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Wed Nov 26 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Sat Dec 06 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 91.67\nTotal Tax: 4.58\nTotal: 96.25\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:34:59 GMT+0100 (英国夏令时间)\nFully Paid On: Sat Dec 06 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 96.25"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 20c485f3-6da4-40e0-8320-86bf73b07417\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Sun Oct 26 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Nov 05 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 86.67\nTotal Tax: 4.33\nTotal: 91\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:34:41 GMT+0100 (英国夏令时间)\nFully Paid On: Wed Nov 05 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 91"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: cfad6d00-66ea-4952-bab2-613595e2bce7\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Thu Sep 25 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Sun Oct 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 84.76\nTotal Tax: 4.24\nTotal: 89\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:34:29 GMT+0100 (英国夏令时间)\nFully Paid On: Sun Oct 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 89"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 24935f36-ff96-4e45-beae-5fd04f007d60\nInvoice: RPT445-1\nType: ACCPAY\nStatus: PAID\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Tue Aug 26 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Sep 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 87.62\nTotal Tax: 4.38\nTotal: 92\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:34:15 GMT+0100 (英国夏令时间)\nFully Paid On: Fri Sep 05 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 92"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 6e98bbda-baa4-465f-84cb-36403be578b9\nInvoice: INV-0010\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Thu Mar 26 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Sun Apr 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Mon Apr 04 2011 02:31:22 GMT+0100 (英国夏令时间)\nFully Paid On: Sun Apr 05 2026 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 3cfaee38-bfdd-4ca8-afcd-b7a23568ddc3\nInvoice: INV-0009\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Mon Feb 23 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Thu Mar 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 1000\nTotal Tax: 200\nTotal: 1200\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:31:06 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Mar 05 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 1200"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 0f235364-1d3a-452d-b2c0-7900c7ad14ca\nInvoice: INV-0008\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Sat Jan 24 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Tue Feb 03 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Mon Apr 04 2011 02:30:49 GMT+0100 (英国夏令时间)\nFully Paid On: Tue Feb 03 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 08f0630c-24c1-4433-a98b-76967fc1b7cc\nInvoice: INV-0007\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Wed Dec 24 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Sat Jan 03 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 1250\nTotal Tax: 250\nTotal: 1500\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:30:29 GMT+0100 (英国夏令时间)\nFully Paid On: Sat Jan 03 2026 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 1500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 379d60f2-56b9-4043-af41-3f8775b87dd4\nInvoice: INV-0006\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Mon Nov 24 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nDue Date: Thu Dec 04 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Mon Apr 04 2011 02:30:08 GMT+0100 (英国夏令时间)\nFully Paid On: Thu Dec 04 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 208c87e9-3721-435d-b6b0-c13ff8ff06b4\nInvoice: INV-0005\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Fri Oct 24 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Nov 03 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Mon Apr 04 2011 02:29:51 GMT+0100 (英国夏令时间)\nFully Paid On: Mon Nov 03 2025 00:00:00 GMT+0000 (格林尼治标准时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 4f9d9bcc-3c75-4884-93a4-19d3b5a4b5f8\nInvoice: INV-0004\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Tue Sep 23 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Fri Oct 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 833.34\nTotal Tax: 166.66\nTotal: 1000\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 02:28:59 GMT+0100 (英国夏令时间)\nFully Paid On: Fri Oct 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 1000"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 7ea31cd8-045c-4871-8cda-c0420953a39c\nInvoice: INV-0003\nReference: RPT200-1\nType: ACCREC\nStatus: PAID\nContact: Ridgeway University (a871a956-05b5-4e2a-9419-7aeb478ca647)\nDate: Sun Aug 24 2025 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Wed Sep 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 416.67\nTotal Tax: 83.33\nTotal: 500\nCurrency: GBP\nLast Updated: Mon Apr 04 2011 02:28:40 GMT+0100 (英国夏令时间)\nFully Paid On: Wed Sep 03 2025 01:00:00 GMT+0100 (英国夏令时间)\nAmount Paid: 500"
+    },
+    {
+      "type": "text",
+      "text": "Invoice ID: 2175c381-d323-4e20-8c94-7680ea7f85d3\nInvoice: RPT445-1\nType: ACCPAY\nStatus: AUTHORISED\nContact: PowerDirect (dec56ceb-65e9-43b3-ac98-7fe09eb37e31)\nDate: Fri Jun 26 2026 01:00:00 GMT+0100 (英国夏令时间)\nDue Date: Mon Jul 06 2026 01:00:00 GMT+0100 (英国夏令时间)\nLine Amount Types: Inclusive\nSub Total: 103.43\nTotal Tax: 5.17\nTotal: 108.6\nCurrency: GBP\nCurrency Rate: 1\nLast Updated: Mon Apr 04 2011 01:19:05 GMT+0100 (英国夏令时间)\nAmount Due: 108.6"
+    }
+  ]
+}

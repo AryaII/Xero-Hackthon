@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 13 items:"
+    },
+    {
+      "type": "text",
+      "text": "Item: Fish out of Water: Finding Your Brand\nID: 5b27339e-ecc8-40b6-ace3-0f25bdf5fd63\nCode: BOOK\nDescription: Fish out of Water: Finding Your Brand\nPurchase Description: Fish out of Water: Finding Your Brand\nSales Price: 19.95\nPurchase Price: 15.95\nSales Account: 200\nPurchase Account: 300\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Golf balls - white single\nID: d5b140ac-19bd-41ce-a1f0-dbb637766725\nCode: GB1-White\nDescription: Golf balls - white single. Please reorder with code GB1-White\nPurchase Description: Golf balls - white single. Wholesale catalog item #020812-1\nSales Price: 5.6\nPurchase Price: 4.2\nSales Account: 200\nPurchase Account: 300\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Golf balls - white 3-pack\nID: 5c51f4aa-0fba-4b71-8fc8-a64804648505\nCode: GB3-White\nDescription: Golf balls - white 3 pack. Please reorder with code GB3-White\nPurchase Description: Golf balls - white 3 pack. Wholesale catalog item #020812-3\nSales Price: 15\nPurchase Price: 12\nSales Account: 200\nPurchase Account: 300\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Golf balls - white 6-pack\nID: 965cfc0e-4d80-4059-9641-4a392f9ad549\nCode: GB6-White\nDescription: Golf balls - white 6 pack. Please reorder with code GB6-White\nPurchase Description: Golf balls - white 6 pack. Wholesale catalog item #020812-6\nSales Price: 24.99\nPurchase Price: 20\nSales Account: 200\nPurchase Account: 300\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Golf balls - white 9 pack\nID: 1dbc92da-ca7b-4ad3-baa0-24e2f30c8a1f\nCode: GB9-White\nDescription: Golf balls - white - 9 pack. Please reorder with code GB9-White\nPurchase Description: Golf balls - white 9 pack. Wholesale catalog item #020812-9\nSales Price: 32\nPurchase Price: 25\nSales Account: 200\nPurchase Account: 300\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Project management & implementation - branding\nID: caab1928-2f0b-4101-b7d8-151f2ddfa91d\nCode: PM-BR\nDescription: Project management & implementation - branding workshop with your team\nPurchase Description: Project management & implementation - branding workshop with your team\nSales Price: 250\nPurchase Price: 0\nSales Account: 200\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Project management - daily rate\nID: aa1c5f84-4453-42fa-9c92-69d4085607c9\nCode: PMD\nDescription: Project management - onsite daily rate - your CRM integration project\nSales Price: 700\nSales Account: 260\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: No\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Project management & implementation due diligence\nID: d47acaa9-44d7-4486-80e4-395e4f0b754e\nCode: PMDD\nDescription: Project management & implementation - 'due diligence' stocktake of your project scope/schedule/implementation plan/outcome measures (hourly rate as agreed)\nSales Price: 105\nSales Account: 200\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: No\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Desktop/network support via email & phone\nID: f8fb7e00-5e5d-466c-aef0-15861f73d04f\nCode: Support-M\nDescription: Desktop/network support via email & phone.Per month fixed fee for minimum 20 hours/month.\nPurchase Description: Desktop/network support via email & phone.Per month fixed fee for minimum 20 hours/month.\nSales Price: 541.25\nPurchase Price: 0\nSales Account: 200\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: Half day training - Microsoft Office\nID: 489558f5-27b7-4f37-ad9f-d84611c2e2ab\nCode: Train-MS\nDescription: Half day training - Microsoft Office\nPurchase Description: Half day training - Microsoft Office\nSales Price: 500\nPurchase Price: 0\nSales Account: 200\nTracked as Inventory: No\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: T-Shirt Large Black\nID: 9fd3cb05-b74d-469f-ad52-54d670ef1a4f\nCode: TSL - Black\nDescription: Company Branded T-Shirt Large Black.  Check out our website for other offers!\nPurchase Description: Company Branded T-Shirt Large Black.  Order Code #2412\nSales Price: 40\nPurchase Price: 20\nSales Account: 200\nTracked as Inventory: Yes\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: T-Shirt Medium Black\nID: 24de2241-4f9c-4a0f-b726-dcc603bde547\nCode: TSM - Black\nDescription: Company Branded T-Shirt Medium Black.  Check out our website for other offers!\nPurchase Description: Company Branded T-Shirt Medium Black.  Order code #2382\nSales Price: 40\nPurchase Price: 20\nSales Account: 200\nTracked as Inventory: Yes\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    },
+    {
+      "type": "text",
+      "text": "Item: T-Shirt Small Black\nID: 6b5a9999-da79-46f2-a102-2de225df85fb\nCode: TSS - Black\nDescription: Company Branded T-Shirt Small Black.  Check out our website for other offers!\nPurchase Description: Company Branded T-Shirt Small Black.  Order code #2308\nSales Price: 40\nPurchase Price: 20\nSales Account: 200\nTracked as Inventory: Yes\nIs Sold: Yes\nIs Purchased: Yes\nLast Updated: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间)"
+    }
+  ]
+}

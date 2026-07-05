@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Found 1 tracking categories:"
+    },
+    {
+      "type": "text",
+      "text": "Tracking Category ID: 9d8ad8f6-0d0f-41e0-8851-ef47e8b54ae6\nName: Region\nStatus: ACTIVE\nFound 4 tracking options:\nOption ID: dba3d4da-f9ed-4eee-8e0b-452d11fdb1fa\nName: Eastside\nStatus: ACTIVE,Option ID: 34b9b859-07a9-451a-b4d3-effc9946634a\nName: North\nStatus: ACTIVE,Option ID: b3900cc6-3745-40ea-955f-9ef7b1c8cf7e\nName: South\nStatus: ACTIVE,Option ID: 83aa6e46-ef98-4b37-b562-459479e52c4c\nName: West Coast\nStatus: ACTIVE"
+    }
+  ]
+}

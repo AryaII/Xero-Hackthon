@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* Xero brand */
+  --color-xero-blue: #13b5ea;
+  --color-xero-blue-600: #0fa0d0;
+  --color-xero-navy: #236f8e;
+  --color-xero-ink: #1b2733;
+  --color-xero-grey: #7a7e85;
+  --color-xero-line: #e1e5e9;
+  --color-xero-bg: #f4f5f7;
+  --color-xero-card: #ffffff;
+
+  /* Semantic */
+  --color-ok: #00a96b;
+  --color-ok-bg: #e4f7ef;
+  --color-warn: #e8a317;
+  --color-warn-bg: #fcf3df;
+  --color-risk: #d64545;
+  --color-risk-bg: #fbe9e9;
+  --color-info: #13b5ea;
+  --color-info-bg: #e3f5fc;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --radius-card: 8px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-xero-bg);
+  color: var(--color-xero-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}

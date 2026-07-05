@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Organisation Details:"
+    },
+    {
+      "type": "text",
+      "text": "Name: Demo Company (UK) || \"No name available.\"\nLegal Name: Demo Company (UK) || \"No legal name available.\"\nPays Tax: Yes\nShort Code: !x59FT || \"No short code available.\"\nOrganisation ID: 9a6f90de-bf4d-4ed5-9690-e9492ec83be9 || \"No organisation ID available.\"\nVersion: UK || \"No version available.\"\nOrganisation Type: COMPANY\nBase Currency: GBP || \"No base currency available.\"\nCountry Code: GB || \"No country code available.\"\nTimezone: GMTSTANDARDTIME || \"No timezone available.\"\nRegistration Number: 02181833\nTax Number: GB 123456789\nOrganisation Entity Type: COMPANY\nFinancial Year End Day: 31 || \"No financial year end day set.\"\nFinancial Year End Month: 3 || \"No financial year end month set.\"\nSales Tax Basis: CASH || \"No sales tax basis available.\"\nSales Tax Period: MONTHLY || \"No sales tax period available.\"\nPeriod Lock Date: Wed Mar 31 2010 01:00:00 GMT+0100 (英国夏令时间)\nOrganisation Status: ACTIVE\nCreated Date: Sat Jul 04 2026 18:38:25 GMT+0100 (英国夏令时间) || \"No created date available.\"\nEdition: BUSINESS || \"No edition available.\"\nClass: DEMO || \"No class available.\"\nIs Demo Company: Yes\nAddresses:\nAddress 1 (POBOX): 23 Main Street, Central City, Marineville, MV12 3CC\nPhone Numbers:\nPhone 1: OFFICE - 1234 5678\nExternal Links:\n\nPayment Terms:\n1. bills: undefined\n2. sales: undefined"
+    }
+  ]
+}

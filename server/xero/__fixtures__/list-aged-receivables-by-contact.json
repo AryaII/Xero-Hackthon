@@ -1,0 +1,20 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Report Name: Aged Receivables By Contact"
+    },
+    {
+      "type": "text",
+      "text": "Report Date: 5 July 2026"
+    },
+    {
+      "type": "text",
+      "text": "Showing all relevant invoices"
+    },
+    {
+      "type": "text",
+      "text": "[\n  {\n    \"rowType\": \"Header\",\n    \"cells\": [\n      {\n        \"value\": \"Date\"\n      },\n      {\n        \"value\": \"Number\"\n      },\n      {\n        \"value\": \"Due Date\"\n      },\n      {\n        \"value\": \"\"\n      },\n      {\n        \"value\": \"Total\"\n      },\n      {\n        \"value\": \"Paid\"\n      },\n      {\n        \"value\": \"Credited\"\n      },\n      {\n        \"value\": \"Due\"\n      }\n    ]\n  },\n  {\n    \"rowType\": \"Section\",\n    \"title\": \"\",\n    \"rows\": [\n      {\n        \"rowType\": \"Row\",\n        \"cells\": [\n          {\n            \"value\": \"2026-06-29T00:00:00\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"INV-0036\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"2026-07-09T00:00:00\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"914.55\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"0.00\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"0.00\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          },\n          {\n            \"value\": \"914.55\",\n            \"attributes\": [\n              {\n                \"id\": \"invoiceID\",\n                \"value\": \"b16c6503-b49c-4289-8bbb-0c0d33655583\"\n              }\n            ]\n          }\n        ]\n      },\n      {\n        \"rowType\": \"SummaryRow\",\n        \"cells\": [\n          {\n            \"value\": \"Total\"\n          },\n          {\n            \"value\": \"\"\n          },\n          {\n            \"value\": \"\"\n          },\n          {\n            \"value\": \"\"\n          },\n          {\n            \"value\": \"914.55\"\n          },\n          {\n            \"value\": \"0.00\"\n          },\n          {\n            \"value\": \"0.00\"\n          },\n          {\n            \"value\": \"914.55\"\n          }\n        ]\n      }\n    ]\n  }\n]"
+    }
+  ]
+}
