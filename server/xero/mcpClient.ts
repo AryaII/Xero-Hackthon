@@ -126,6 +126,10 @@ export const xero = {
   trackingCategories: async (): Promise<TrackingCategory[]> =>
     parseTrackingCategories(await call("list-tracking-categories")),
 
+  // Requires accounting.reports.balancesheet.read — see NOTES.md §5b for the
+  // XERO_SCOPES gotcha that made this look unavailable at first.
+  balanceSheet: async (): Promise<ReportGrid> => parseReportGrid(await call("list-report-balance-sheet")),
+
   items: async (page = 1): Promise<Item[]> => parseItems(await call("list-items", { page })),
 
   // Real write — only ever DRAFT, only after human approval (brief §4.5/§9).

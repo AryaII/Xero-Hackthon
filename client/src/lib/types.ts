@@ -54,12 +54,19 @@ export type OodaEvent =
   | { type: "action"; action: ProposedAction }
   | { type: "toast"; tone: "info" | "warn"; text: string };
 
-export interface BankBalanceObserve {
-  accounts: { accountId: string; name: string }[];
-  balanceAvailable: false;
-  note: string;
-  recentTransactionCount: number;
-}
+export type BankBalanceObserve =
+  | {
+      balanceAvailable: true;
+      accounts: { accountId: string; name: string; balance: number }[];
+      totalBalance: number;
+      asOfDate: string | null;
+    }
+  | {
+      balanceAvailable: false;
+      accounts: { accountId: string; name: string }[];
+      note: string;
+      recentTransactionCount: number;
+    };
 
 export interface AgedInvoicesObserve {
   count: number;

@@ -31,7 +31,10 @@ const ROWS: {
     icon: Landmark,
     format: (v) => {
       const val = v as BankBalanceObserve;
-      return `${val.accounts.length} accounts · balance unavailable`;
+      const label = val.accounts.length === 1 ? "account" : "accounts";
+      return val.balanceAvailable
+        ? `${val.accounts.length} ${label} · ${currency(val.totalBalance)}`
+        : `${val.accounts.length} ${label} · balance unavailable`;
     },
   },
   {

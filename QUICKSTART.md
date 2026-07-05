@@ -24,6 +24,9 @@ Connection**, not a Web/PKCE app.
       ```
       accounting.reports.aged.read
       accounting.reports.profitandloss.read
+      accounting.reports.balancesheet.read
+      accounting.reports.trialbalance.read
+      accounting.reports.banksummary.read
       accounting.contacts.read
       accounting.settings.read
       accounting.banktransactions.read
@@ -55,5 +58,11 @@ real Demo Company name. If it errors:
 - **auth/scope error** — re-check Step 2 (wrong app type, or a missing scope).
 - **"invalid_client"** — Client ID/Secret mismatch in `.env`.
 - **empty/timeout** — the MCP server didn't spawn; check Node 20+ and that `npx` works.
+- **A specific report call fails with a generic "unexpected error" message** — check
+  `XERO_SCOPES` in `.env` before re-checking the Xero developer portal. `XERO_SCOPES`
+  is what actually gets requested at token time; if your app has a scope granted but
+  `XERO_SCOPES` doesn't list it, the call still fails, and the error text looks
+  identical either way. Add the scope to `XERO_SCOPES`, restart the backend (the MCP
+  client caches its connection per process), and retry.
 
 > Never commit `.env`. Only `.env.example` (with empty values) belongs in git.

@@ -3,7 +3,7 @@ import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CashFlowChart } from "@/components/CashFlowChart";
 import { computeCashFlowForecast } from "@/lib/cashFlowForecast";
-import type { AgedInvoicesObserve, Hypothesis } from "@/lib/types";
+import type { AgedInvoicesObserve, BankBalanceObserve, Hypothesis } from "@/lib/types";
 import type { SourceState } from "@/hooks/useOodaRun";
 
 function Placeholder({ children }: { children: ReactNode }) {
@@ -85,20 +85,31 @@ export function DashboardTab({
 }) {
   const agedReceivables = sources["aged-receivables"]?.value as AgedInvoicesObserve | undefined;
   const agedPayables = sources["aged-payables"]?.value as AgedInvoicesObserve | undefined;
+  const bankBalance = sources["bank-balance"]?.value as BankBalanceObserve | undefined;
   const hasScheduleData = (agedReceivables?.invoices.length ?? 0) > 0 || (agedPayables?.invoices.length ?? 0) > 0;
-  const forecast = computeCashFlowForecast(agedReceivables, agedPayables);
+  const hasRealBalance = bankBalance?.balanceAvailable === true;
+  const forecast = computeCashFlowForecast(
+    agedReceivables,
+    agedPayables,
+    hasRealBalance ? bankBalance.totalBalance : 0
+  );
 
   return (
     <div className="flex flex-col gap-4">
       <Card>
         <CardHeader>
-          <CardTitle>Net cash movement — next 90 days</CardTitle>
+          <CardTitle>{hasRealBalance ? "Cash flow — next 90 days" : "Net cash movement — next 90 days"}</CardTitle>
         </CardHeader>
         <p className="mb-2 text-[11px] text-xero-grey">
-          Relative movement from real scheduled receivables and payables — not an absolute cash
-          balance (the API can't return one under current scopes; see NOTES.md §5b).
+          {hasRealBalance
+            ? "Real starting balance plus scheduled receivables and payables, projected forward. Safety threshold set at £4,000."
+            : "Relative movement from real scheduled receivables and payables — not an absolute cash balance (bank balance unavailable this run; see NOTES.md §5b)."}
         </p>
-        {hasScheduleData ? <CashFlowChart data={forecast} /> : <Placeholder>No data yet — run Observe.</Placeholder>}
+        {hasScheduleData ? (
+          <CashFlowChart data={forecast} safetyThreshold={hasRealBalance ? 4000 : undefined} />
+        ) : (
+          <Placeholder>No data yet — run Observe.</Placeholder>
+        )}
       </Card>
       <Card>
         <CardHeader>

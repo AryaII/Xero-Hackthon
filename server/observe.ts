@@ -1,15 +1,22 @@
 import { xero } from "./xero/mcpClient.js";
 import { findReportRow, getReportHeaderCells } from "./xero/parsers.js";
-import type { Contact, Invoice } from "./xero/types.js";
+import type { Account, Contact, Invoice, ReportGrid, ReportSection } from "./xero/types.js";
 import type { OodaEvent } from "./events.js";
 import { daysBetween } from "./dateUtils.js";
 
-export interface BankBalanceObserve {
-  accounts: { accountId: string; name: string }[];
-  balanceAvailable: false;
-  note: string;
-  recentTransactionCount: number;
-}
+export type BankBalanceObserve =
+  | {
+      balanceAvailable: true;
+      accounts: { accountId: string; name: string; balance: number }[];
+      totalBalance: number;
+      asOfDate: string | null;
+    }
+  | {
+      balanceAvailable: false;
+      accounts: { accountId: string; name: string }[];
+      note: string;
+      recentTransactionCount: number;
+    };
 
 export interface AgedInvoicesObserve {
   count: number;
@@ -32,6 +39,31 @@ export interface ContactHistoryObserve {
 export interface PaymentPatternsObserve {
   paidInvoiceCount: number;
   avgDaysSalesOutstanding: number | null;
+}
+
+// The balance sheet's "Bank" section carries the real current balance per bank
+// account — see NOTES.md §5b for why this looked unavailable before (it was
+// our own XERO_SCOPES override, not a Xero-side permission gap).
+function computeBankBalance(
+  grid: ReportGrid,
+  accounts: Account[]
+): { accounts: { accountId: string; name: string; balance: number }[]; totalBalance: number; asOfDate: string | null } {
+  const header = getReportHeaderCells(grid);
+  const asOfDate = header[1] ?? null;
+  const bankSection = grid.find(
+    (n): n is ReportSection => n.rowType === "Section" && n.title === "Bank"
+  );
+  const rows = bankSection?.rows.filter((r) => r.rowType === "Row") ?? [];
+  const balances = rows.map((row) => {
+    const nameCell = row.cells[0];
+    const balanceCell = row.cells[1];
+    const accountId = nameCell?.attributes?.find((a) => a.id === "account")?.value ?? "";
+    const name = accounts.find((a) => a.accountId === accountId)?.name ?? nameCell?.value ?? "Unknown";
+    const balance = Number((balanceCell?.value ?? "0").replace(/,/g, "")) || 0;
+    return { accountId, name, balance };
+  });
+  const totalBalance = balances.reduce((sum, a) => sum + a.balance, 0);
+  return { accounts: balances, totalBalance: Math.round(totalBalance * 100) / 100, asOfDate };
 }
 
 function computeAgedInvoices(invoices: Invoice[], type: "ACCREC" | "ACCPAY"): AgedInvoicesObserve {
@@ -115,14 +147,19 @@ export async function runObserve(emit: (event: OodaEvent) => void): Promise<Obse
 
   emit({ type: "source", id: "bank-balance", label: "Bank balance", state: "loading" });
   const [accounts, recentTx] = await Promise.all([xero.accounts(), xero.bankTransactions(1)]);
-  const bankBalance: BankBalanceObserve = {
-    accounts: accounts
-      .filter((a) => a.type === "BANK")
-      .map((a) => ({ accountId: a.accountId, name: a.name })),
-    balanceAvailable: false,
-    note: "Live balance unavailable: list-trial-balance/list-report-balance-sheet are not authorized under the current scopes (see NOTES.md §5b). Showing account identity and recent activity only.",
-    recentTransactionCount: recentTx.length,
-  };
+  let bankBalance: BankBalanceObserve;
+  try {
+    const grid = await xero.balanceSheet();
+    const { accounts: balances, totalBalance, asOfDate } = computeBankBalance(grid, accounts);
+    bankBalance = { balanceAvailable: true, accounts: balances, totalBalance, asOfDate };
+  } catch (err) {
+    bankBalance = {
+      balanceAvailable: false,
+      accounts: accounts.filter((a) => a.type === "BANK").map((a) => ({ accountId: a.accountId, name: a.name })),
+      note: `Live balance unavailable: ${(err as Error).message}`,
+      recentTransactionCount: recentTx.length,
+    };
+  }
   emit({ type: "source", id: "bank-balance", label: "Bank balance", value: bankBalance, state: "done" });
 
   const invoices = await xero.invoices();

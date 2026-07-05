@@ -86,28 +86,39 @@ the brief) is the correct source for the account's actual current balance; treat
 `list-bank-transactions` as transaction history for reconciliation/pattern detection
 only, and pull `list-accounts` separately for the balance figure.
 
-## 5b. No real bank balance is obtainable with the current scopes
+## 5b. RESOLVED — the missing-scope bug was in our own `.env`, not Xero
 
-Two follow-on findings while wiring the Observe "Bank balance" row:
+Originally reported as "no real bank balance obtainable with the current scopes" and
+shipped as an honest gap. **That diagnosis was half wrong.** The Xero Custom
+Connection app itself had the full scope list granted all along, including
+`accounting.reports.balancesheet.read` and `accounting.reports.trialbalance.read`
+(confirmed 2026-07-05 by the human pasting the app's actual authorized-scopes page).
 
-- `list-bank-transactions` text blocks have **no `Type` field** (Xero normally has
-  `RECEIVE`/`SPEND` on every bank transaction) — so even summing transaction totals
-  can't be signed into a net movement. The MCP server's formatter simply omits it.
-- `list-trial-balance` and `list-report-balance-sheet` — the two report tools that
-  would carry a real per-account balance — **both error** regardless of arguments
-  (`"An unexpected error occurred while communicating with Xero."`, same generic text
-  as the `periods:12` failure). Most likely cause: the Custom Connection was only
-  granted `accounting.reports.aged.read` and `accounting.reports.profitandloss.read`
-  (per QUICKSTART's scope list) — trial balance / balance sheet need their own report
-  scopes, never requested. **Not proven** — the MCP server gives identical error text
-  for scope problems and parameter problems, so this can't be distinguished from the
-  client side. If a literal bank balance is needed later, add
-  `accounting.reports.trialbalance.read` (and/or the balance-sheet equivalent) in the
-  Xero developer portal and reconnect, then re-test `list-trial-balance`.
-- **Decision (with the human, 2026-07-05):** ship Observe without a real balance
-  figure for now. The "Bank balance" row shows bank account identity from
-  `list-accounts` (name, currency) plus transaction activity/count from
-  `list-bank-transactions`, explicitly labeled as not a balance. No fabricated number.
+The real bug: this project's own `.env` sets `XERO_SCOPES` as an **override**, and
+that override listed only 7 scopes — it never included the balance-sheet/trial-balance
+ones. Per the MCP server's own behavior (and the build brief §3.1), `XERO_SCOPES` is
+what actually gets requested from Xero at token time, regardless of what the app is
+authorized for. So the client-side override was silently self-limiting the token to a
+narrower scope set than the app actually had — the server-side `"An unexpected error
+occurred while communicating with Xero"` for `list-trial-balance` /
+`list-report-balance-sheet` was consistent with a missing scope, just not the scope
+gap we thought it was.
+
+**Fix:** added `accounting.reports.balancesheet.read`, `accounting.reports.trialbalance.read`,
+and `accounting.reports.banksummary.read` to `XERO_SCOPES` in `.env`, restarted the
+backend (the MCP client caches its connection per process, so a fresh process is
+required to request a new token), and re-tested — both tools now succeed.
+
+**Real balance confirmed:** `list-report-balance-sheet`'s "Bank" section for this org
+returns `Business Bank Account: 924.25` (as of 5 Jul 2026) — a real number, not a
+transaction-activity proxy. Also note: `list-bank-transactions` still has no
+`Type` (RECEIVE/SPEND) field, so it remains unsuitable for computing a balance by
+summation — the balance sheet is the correct source, not bank transactions.
+
+**Lesson:** when a report call fails with a generic Xero error, check this project's
+own `XERO_SCOPES` override in `.env` before concluding the Custom Connection app is
+missing a scope — the two are easy to conflate and only one of them is fixable by
+editing a local file.
 
 ## 5c. `create-quote` DOES return a real deep link — no need to construct one
 

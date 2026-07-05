@@ -81,9 +81,21 @@ export function HeroKpiStrip({
     <div className="mx-auto mt-6 grid max-w-[1280px] grid-cols-1 gap-3 px-6 sm:grid-cols-2 lg:grid-cols-4">
       <KpiCard
         label="Available cash"
-        value={bankBalance ? "Unavailable" : "—"}
-        note={bankBalance?.note ?? "Waiting for Observe…"}
-        tone="neutral"
+        value={
+          !bankBalance
+            ? "—"
+            : bankBalance.balanceAvailable
+              ? currency(bankBalance.totalBalance)
+              : "Unavailable"
+        }
+        note={
+          !bankBalance
+            ? "Waiting for Observe…"
+            : bankBalance.balanceAvailable
+              ? `${bankBalance.accounts.length} bank ${bankBalance.accounts.length === 1 ? "account" : "accounts"}, as of ${bankBalance.asOfDate ?? "today"}`
+              : bankBalance.note
+        }
+        tone={bankBalance?.balanceAvailable ? "ok" : "neutral"}
       />
       <KpiCard
         label="Cash health score"

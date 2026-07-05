@@ -73,8 +73,8 @@ This project prioritizes **never fabricating a number**. Where the live API can'
 | Draft quote creation in Xero | ✅ Real write, verified live, `DRAFT` status only |
 | Approval queue (approve/reject) | ✅ Real, backed by the write above |
 | Cash health score | ✅ Real formula (DSO, receivables/payables coverage, late-payment risk) |
-| Available cash (absolute balance) | ⚠️ Unavailable — `list-trial-balance`/`list-report-balance-sheet` need report scopes not currently granted |
-| 90-day cash flow chart | ⚠️ Shown as **relative net movement** (real receivables/payables by due date), not an absolute balance, for the same reason |
+| Available cash (absolute balance) | ✅ Real, from `list-report-balance-sheet`'s Bank section |
+| 90-day cash flow chart | ✅ Real starting balance + scheduled receivables/payables, with the £4,000 safety-threshold line |
 | Opportunities matrix | Rendered as a ranked table rather than a 2×2 scatter plot |
 
 See [`server/xero/NOTES.md`](server/xero/NOTES.md) for the full list of real-world API discrepancies discovered while building this (report-grid shapes, a hard `periods` cap on P&L, locale-dependent date strings, no idempotency-key field on writes, etc.) — written up as they were found, against live data, not assumed from docs.
@@ -112,12 +112,21 @@ Set `DEMO_MODE=true` in `.env` to run entirely offline against captured real-dat
 ```
 accounting.reports.aged.read
 accounting.reports.profitandloss.read
+accounting.reports.balancesheet.read
+accounting.reports.trialbalance.read
+accounting.reports.banksummary.read
 accounting.contacts.read
 accounting.settings.read
 accounting.banktransactions.read
 accounting.invoices
 accounting.invoices.read
 ```
+
+> The scopes actually **requested** are whatever `XERO_SCOPES` in `.env` lists —
+> it's an override, not just a filter on what the Xero app is authorized for. If a
+> report call fails with a generic error, check this variable before assuming the
+> Xero app itself is missing a scope (see `server/xero/NOTES.md` §5b — this exact
+> mix-up cost real debugging time).
 
 ## Project structure
 

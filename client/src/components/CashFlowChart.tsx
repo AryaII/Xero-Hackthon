@@ -27,16 +27,32 @@ function CashFlowTooltip({ active, payload }: { active?: boolean; payload?: { pa
       <div className="font-medium text-xero-ink">{p.dateLabel}</div>
       <div className="text-xero-grey">In: {currency(p.inflow)}</div>
       <div className="text-xero-grey">Out: {currency(p.outflow)}</div>
-      <div className="font-mono text-xero-ink">Cumulative: {currency(p.netCumulative)}</div>
+      <div className="font-mono text-xero-ink">Cash position: {currency(p.cashPosition)}</div>
     </div>
   );
 }
 
-export function CashFlowChart({ data }: { data: CashFlowPoint[] }) {
+export function CashFlowChart({
+  data,
+  safetyThreshold,
+}: {
+  data: CashFlowPoint[];
+  /** Absolute £ threshold to draw as a reference line — omit for relative-movement mode. */
+  safetyThreshold?: number;
+}) {
   const tickIndices = [0, 15, 30, 45, 60, 75, 90];
+  const referenceY = safetyThreshold ?? 0;
+  const referenceLabel = safetyThreshold !== undefined ? "Safety threshold" : "Break-even";
 
   return (
-    <div className="h-80" aria-label="Cumulative net cash movement over the next 90 days, from real scheduled receivables and payables">
+    <div
+      className="h-80"
+      aria-label={
+        safetyThreshold !== undefined
+          ? "Projected cash position over the next 90 days, from a real starting balance plus scheduled receivables and payables"
+          : "Cumulative net cash movement over the next 90 days, from real scheduled receivables and payables"
+      }
+    >
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ top: 8, right: 16, bottom: 0, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#E1E5E9" vertical={false} />
@@ -55,8 +71,13 @@ export function CashFlowChart({ data }: { data: CashFlowPoint[] }) {
             width={56}
           />
           <Tooltip content={<CashFlowTooltip />} />
-          <ReferenceLine y={0} stroke="#D64545" strokeDasharray="4 4" label={{ value: "Break-even", fontSize: 11, fill: "#D64545", position: "insideBottomRight" }} />
-          <Line type="monotone" dataKey="netCumulative" stroke="#13B5EA" strokeWidth={2} dot={false} />
+          <ReferenceLine
+            y={referenceY}
+            stroke="#D64545"
+            strokeDasharray="4 4"
+            label={{ value: referenceLabel, fontSize: 11, fill: "#D64545", position: "insideBottomRight" }}
+          />
+          <Line type="monotone" dataKey="cashPosition" stroke="#13B5EA" strokeWidth={2} dot={false} />
         </LineChart>
       </ResponsiveContainer>
     </div>

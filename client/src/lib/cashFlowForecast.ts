@@ -5,17 +5,19 @@ export interface CashFlowPoint {
   dateLabel: string;
   inflow: number;
   outflow: number;
-  netCumulative: number;
+  cashPosition: number;
 }
 
 // Real data only: buckets each open receivable/payable by its due date's
 // offset from today (overdue items collapse into day 0 — they're already
-// due) and walks a 90-day cumulative net movement. No starting balance is
-// assumed since the API can't return one (see NOTES.md §5b) — this is
-// relative movement, not an absolute cash position.
+// due) and walks a 90-day cumulative projection. When a real starting balance
+// is available (see NOTES.md §5b — this needed the right XERO_SCOPES, not a
+// missing Xero permission), `cashPosition` is an absolute forecast; otherwise
+// it's relative movement from zero.
 export function computeCashFlowForecast(
   receivables: AgedInvoicesObserve | undefined,
-  payables: AgedInvoicesObserve | undefined
+  payables: AgedInvoicesObserve | undefined,
+  startingBalance = 0
 ): CashFlowPoint[] {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -37,18 +39,18 @@ export function computeCashFlowForecast(
   bucket(payables?.invoices, outflowByDay);
 
   const points: CashFlowPoint[] = [];
-  let cumulative = 0;
+  let cashPosition = startingBalance;
   for (let day = 0; day <= 90; day++) {
     const inflow = inflowByDay.get(day) ?? 0;
     const outflow = outflowByDay.get(day) ?? 0;
-    cumulative += inflow - outflow;
+    cashPosition += inflow - outflow;
     const date = new Date(today.getTime() + day * 86_400_000);
     points.push({
       day,
       dateLabel: date.toLocaleDateString("en-GB", { day: "2-digit", month: "short" }),
       inflow,
       outflow,
-      netCumulative: Math.round(cumulative * 100) / 100,
+      cashPosition: Math.round(cashPosition * 100) / 100,
     });
   }
   return points;
