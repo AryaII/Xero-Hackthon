@@ -26,10 +26,11 @@ Everything downstream of Observe is computed from the same real dataset — noth
 
 Add your own screenshots to a `docs/` folder and reference them here, e.g.:
 
-```md
-![Agent Thinking tab](docs/agent-thinking.png)
-![Dashboard](docs/dashboard.png)
-```
+
+![Dashboard](/p1.png)
+![Dashboard](/p2.png)
+![Dashboard](/p3.png)
+
 
 ## Architecture
 
